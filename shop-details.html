@@ -13,6 +13,8 @@
 <link rel="stylesheet" href="css/bootstrap.css" type="text/css" media="all">
 <link rel="stylesheet" href="css/slick.css" type="text/css" />
 <link rel="stylesheet" href="css/slick-theme.css" type="text/css" />
+<link rel="stylesheet" href="css/all.css" type="text/css">
+<link rel="stylesheet" href="css/custom.css" type="text/css">
 <link rel="stylesheet" href="css/style.css" type="text/css">
 <link rel="stylesheet" href="css/search.css" type="text/css">
 <link rel="stylesheet" href="css/responsive.css" type="text/css">
@@ -20,8 +22,9 @@
 
 <body>
 <div class="content"> 
+  
   <!-- Header start here (Date)-->
-  <header class="v-header  wrapper">
+  <header class="v-header wrapper">
     <div class="top-bar">
       <div class="container mob-header">
         <div class="g-left"> 
@@ -324,11 +327,24 @@
                 </abbr></li>
             </ul>
           </div>
+            
           <div class="header-section login">
+              <div class="login-box">
             <h6> <span>Hello</span> Your Account </h6>
             <p class="p">Access account and manage orders</p>
             <div class="action"> <a href="javascript:;">Log In</a> <a href="javascript:;">Sign Up</a> </div>
+             </div>
+              
+             <div class="logout-box">   
+            <h6> <span>Hello</span> Fungsuk Vangdu </h6>
+                 <p class="p"><a href="javascript:;">View Your Profile</a></p>
+            <div class="action"> <a href="javascript:;"><img src="images/logout.png" alt="" title=""> <span> Log Out</span></a> </div>
+            </div> 
+              
+              
+              
           </div>
+            
           <div class="search header-section">
             <div id="js-globalsearch" class="global-search">
               <div class="auto-sug-section">
@@ -404,34 +420,45 @@
             </span> </div>
           <div class="cart-panel header-section">
             <h5 class="h5">Cart</h5>
-            <div class="cart-total">
-              <div class="cart-items g-left">Item (2)</div>
-              <div class="price g-left">Total <b>Rs.500</b></div>
+            <div class="cart-total-box">
+              <div class="cart-total">
+                <div class="cart-items g-left">Item (2)</div>
+                <div class="price g-left">Total <b>Rs.500</b></div>
+              </div>
+              <ul>
+                <li>
+                  <div class="cart-img g-left"> <img src="images/cart-img.png"> </div>
+                  <div class="cart-description g-left">
+                    <h6> Nilaya Express Your Love Wall Stickers </h6>
+                    <p class="p"> (PVC Vinyl, 76.20cm x 30.48 cm, Multicolour) </p>
+                    <span class="cart-action p"> <abbr>Qty 1</abbr> <abbr>Rs. 150</abbr> <abbr> <a href="javascript:;"><img src="images/small-delete-icon.png"></a></abbr> </span> </div>
+                </li>
+                <li>
+                  <div class="cart-img g-left"> <img src="images/cart-img.png"> </div>
+                  <div class="cart-description g-left">
+                    <h6> Nilaya Express Your Love Wall Stickers </h6>
+                    <p class="p"> (PVC Vinyl, 76.20cm x 30.48 cm, Multicolour) </p>
+                    <span class="cart-action p"> <abbr>Qty 1</abbr> <abbr>Rs. 150</abbr> <abbr> <a href="javascript:;"><img src="images/small-delete-icon.png"></a></abbr> </span> </div>
+                </li>
+              </ul>
+              <button class="global-button">Buy Now</button>
             </div>
-            <ul>
-              <li>
-                <div class="cart-img g-left"> <img src="images/cart-img.png"> </div>
-                <div class="cart-description g-left">
-                  <h6> Nilaya Express Your Love Wall Stickers </h6>
-                  <p class="p"> (PVC Vinyl, 76.20cm x 30.48 cm, Multicolour) </p>
-                  <span class="cart-action p"> <abbr>Qty 1</abbr> <abbr>Rs. 150</abbr> <abbr> <a href="javascript:;"><img src="images/small-delete-icon.png"></a></abbr> </span> </div>
-              </li>
-              <li>
-                <div class="cart-img g-left"> <img src="images/cart-img.png"> </div>
-                <div class="cart-description g-left">
-                  <h6> Nilaya Express Your Love Wall Stickers </h6>
-                  <p class="p"> (PVC Vinyl, 76.20cm x 30.48 cm, Multicolour) </p>
-                  <span class="cart-action p"> <abbr>Qty 1</abbr> <abbr>Rs. 150</abbr> <abbr> <a href="javascript:;"><img src="images/small-delete-icon.png"></a></abbr> </span> </div>
-              </li>
-            </ul>
-            <button class="global-button">Buy Now</button>
+            <div class="cart-empty-box">
+              <div class="cart-empty">
+                <div class="cart-items g-left">Item (0)</div>
+              </div>
+              <p>Your cart is empty</p>
+              <button class="global-button">Start Shopping</button>
+            </div>
             <img class="g-close-icon" src="images/close-icon.png"> </div>
         </div>
       </div>
     </div>
     <div class="nav-bg"></div>
   </header>
-  <!-- Header ends here -->
+  <!-- Header ends here --> 
+  
+  <!-- product details start here (Date) -->
   <section class="wrapper" id="main-content">
     <div class="container" >
       <div class="row">
@@ -522,7 +549,6 @@
         <div class="col-xs-12 col-sm-6">
           <div class="c-product-specs">
             <h1 class="h1 section-header">Nilaya: The Little Mermaid (giant)</h1>
-                  
             <div class="c-starbox" id="ratingsForm">
               <div class="stars">
                 <input type="radio" name="star" class="star-1" id="star-1" />
@@ -555,34 +581,54 @@
             <div class="c-quantity-box">
               <label>Quantity</label>
               <div class="calculation">
-                <div class="minus" id="decrease" onclick="decreaseValue()" value="Decrease Value">-</div>
+                <div class="minus" id="decrease" onClick="decreaseValue()" value="Decrease Value">-</div>
                 <div class="number">
                   <input type="text" id="number" value="0" />
                 </div>
-                <div class="plus" id="increase" onclick="increaseValue()" value="Increase Value">+</div>
+                <div class="plus" id="increase" onClick="increaseValue()" value="Increase Value">+</div>
               </div>
             </div>
             <a href="javascript:void(0)" class="global-button-white" tabindex="0">Add To Cart</a> <a href="javascript:void(0)" class="global-button" tabindex="0">Buy Now</a>
+              
+              
+            <div class="c-mob-product-details">
+              <ul>
+                <li class="active"><h5 class="h5"><a href ="#c-description-box">Description</a></h5></li>
+                <li><h5 class="h5"><a href ="#c-features-box">Features</a></h5></li>
+                <li><h5 class="h5"><a href ="#c-specification-box">Specifications</a></h5></li>
+                </ul>
+              
+              </div>
+              
+              
+              
+              
+              
+              
+              
             <div class="typography">
-              <div class="c-description-box">
+              <div class="c-description-box" id="c-description-box">
                 <h5 class="h5">Description :</h5>
                 <p class="p">Watch and you'll see, someday I'll be part of your world... Make Ariel part of any little girl's world with our giant The Little Mermaid wall decal. Complete with a princess crown, Ariel is a perfect addition to any room. Removable and repositionable, she can be moved around with ease.</p>
               </div>
             </div>
             <div class="typography">
+                <div class="c-features-box" id="c-features-box">
               <h5 class="h5">Features :</h5>
               <ul>
-                <li> Made In USA, Authentic Disney wall stickers</li>
+                <li>Made In USA, Authentic Disney wall stickers</li>
                 <li>Bring a dramatic change to your and your kids' room in just 2 minutes </li>
                 <li>Gently peel and stick to any smooth surface</li>
                 <li>Eco Friendly</li>
                 <li>Included - 1 sheet </li>
               </ul>
+                </div>
             </div>
             <div class="typography">
+                <div class="c-specification-box" id="c-specification-box">
               <h5 class="h5">Specifications :</h5>
               <ul>
-                <li> Model Name</li>
+                <li>Model Name</li>
                 <li>Brand Name</li>
                 <li>Wall covering area</li>
                 <li>Sheet size</li>
@@ -591,16 +637,23 @@
                 <li>Care Instructions</li>
               </ul>
             </div>
+              
           </div>
         </div>
       </div>
     </div>
   </section>
+  <!-- product details ends (Date) --> 
+  
+  <!-- section divider start here (Date) -->
   <section class="wrapper g-con-row">
     <div class="container">
       <div class="c-section-divider"> <img src="images/section-divider.png" alt="" title=""></div>
     </div>
   </section>
+  <!-- section divider ends here (Date) --> 
+  
+  <!-- customer-review start here (Date) -->
   <section class="c-customer-review wrapper g-con-row">
     <div class="container">
       <h2 class="h2 section-header">Customer Reviews</h2>
@@ -656,11 +709,17 @@
         <a href="javascript:void(0)" class="global-button-white" tabindex="0">Write a Product Review</a> </div>
     </div>
   </section>
+  <!-- customer-review ends here (Date) --> 
+  
+  <!-- section divider start here (Date) -->
   <section class="wrapper g-con-row">
     <div class="container">
       <div class="c-section-divider"> <img src="images/section-divider.png" alt="" title=""></div>
     </div>
   </section>
+  <!-- section divider ends here (Date) --> 
+  
+  <!-- Similar Products  start here (Date) -->
   <section class="c-buyonline-product wrapper g-con-row">
     <div class="container">
       <h2 class="h2 section-header">Similar Products</h2>
@@ -694,6 +753,9 @@
       </div>
     </div>
   </section>
+  <!-- Similar Products  ends here (Date) --> 
+  
+  <!-- Footer start here (Date) -->
   <footer class="wrapper">
     <div class="footer-box">
       <div class="container">
@@ -715,7 +777,7 @@
                     <li><a href="javascript:;">Videos</a> </li>
                     <li><a href="javascript:;">Testimonials</a> </li>
                     <li><a href="javascript:;">Colour Academy</a> </li>
-                    <li><a href="javascript:;">Warrenty</a> </li>
+                    <li><a href="javascript:;">Warranty</a> </li>
                     <li><a href="javascript:;">Sustainability</a> </li>
                   </ul>
                 </li>
@@ -774,13 +836,21 @@
       </div>
     </div>
   </footer>
-  <section class="c-sticky-box wrapper">
+  <!-- Footer ends here (Date) --> 
+  
+  <!-- Sticky start here (Date) -->
+  <section class="c-sticky-box">
     <ul class="clearfix">
       <li><a href="javascript:;"><span><img src="images/chat.png" alt="" title=""></span>Chat with Us</a></li>
       <li><a href="javascript:;"><span><img src="images/download.png" alt="" title=""></span>Download Painting App</a></li>
     </ul>
+    <div class="circle open"><img src="images/circle-wrap.png" alt="" title=""></div>
   </section>
+  <!-- Sticky ends here --> 
+  
 </div>
+
+<!-- lightbox content start here (Date) -->
 <div class="c-light">
   <div class="lightbox-target-img" data-img="product-detail-big-img1"><img src="images/product-detail-big-img1.jpg"/></div>
   <div class="lightbox-target-img" data-img="product-detail-big-img2"><img src="images/product-detail-big-img2.jpg"/></div>
@@ -788,36 +858,25 @@
   <div class="lightbox-target-img" data-img="product-detail-big-img4"><img src="images/product-detail-big-img4.jpg"/></div>
   <div class="lightbox-target-img" data-img="product-detail-big-img5"><img src="images/product-detail-big-img5.jpg"/></div>
   <div class="lightbox-target-img" data-img="product-detail-big-img6"><img src="images/product-detail-big-img6.jpg"/></div>
-    
-    
-    
-    
   <div class="lightbox-target">
     <div class="text-box">
       <p>lorem ipsum lorem ipsum lorem ipsum lorem ipsum
         lorem ipsum lorem ipsum lorem ipsum </p>
     </div>
     <div class="lightbox-close" href="#" ></div>
-  </div>  
-    
-    
-  <a class="lightbox-close" href="#"></a>
-</div>
-  
-    
-    
+  </div>
+  <a class="lightbox-close" href="#"></a> </div>
+<!-- lightbox content ends here (Date) -->
 
-    
-    
-    
-    
 </body>
 <script src="js/jquery.min.js"></script>
 <script src="js/bootstrap.min.js"></script>
 <script src="js/slick.js"></script>
+    
 <script src="js/jquery-ui.js"></script>
 <script src="js/responsive-images.js"></script>
 <script src="js/headerSearch.js"></script>
+    
 <script src="js/resultComponent.js"></script>
 <script src="js/typeahead.bundle.min.js"></script>
 <script src="js/ResizeSensor.js"></script>
