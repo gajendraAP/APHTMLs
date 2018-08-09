@@ -1,6 +1,6 @@
 //footer component starts here//
 
-footer { margin-top:40px;
+footer { margin-top:40px !important; 
     
      @include breakpoint(767) { 
                  margin-bottom:50px; 

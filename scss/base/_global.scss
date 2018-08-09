@@ -4,6 +4,17 @@
 //Default Class
 .wrapper{width: 100%; float: left; position:relative;}
 
+
+.container{ 
+   @media only screen and (min-width:1350px) {
+      max-width: 80%;  
+        
+    }
+
+}
+
+
+
 .g-left{float: left;}
 .g-right{float: right;}
 .g-row-m{margin-top:40px; margin-bottom: 40px;}
@@ -17,7 +28,7 @@
 }
 .g-margin-bottom{margin-bottom: 40px;}
 .g-close-icon{position: absolute; top: 5px; right: 5px; cursor: pointer; }
-body{font-family: $open-sans; padding-top: 120px;
+body{font-family: $open-sans; padding-top: 120px !important;
    
       @include breakpoint(440) {
        padding-top: 65px;

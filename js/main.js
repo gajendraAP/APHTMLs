@@ -147,7 +147,10 @@ $(this).addClass('open');
 
 
 $('.c-spotlight-carosel').slick({
-
+autoplay: true,
+autoplaySpeed: 3000,
+infinite: true,
+fade: true,
 slidesToShow: 1,
 slidesToScroll: 1,
 arrows: false,
@@ -165,7 +168,7 @@ if ( $(window).width() < 768 ) {
 $('.decor-solutions-carosel').slick({
 dots: true,
 infinite: true,
-speed: 300,
+speed: 3000,
 slidesToShow: 2,
 variableWidth: true,
 focusOnSelect: true,
@@ -454,7 +457,6 @@ $(this).show();
 }
 });
 });  
-
 
 
 

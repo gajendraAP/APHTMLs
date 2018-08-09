@@ -1,6 +1,6 @@
 .v-header{@include box-shadow(1px, 2px, 1px, 1px, rgba(0, 0, 0, 0.2)); z-index: 9; position: fixed; left: 0px; top: 0px; background-color: #FFF; @extend.animate-3;
     &.up-header{top:-600px;}
-    .container{width: 100%; max-width: 1440px;
+    .container{width: 100%;
         
     }
     .top-bar{background-color: $top-bar-grey; font-family: $open-sans; line-height: 40px; 
@@ -104,7 +104,7 @@
         @include breakpoint(440) {width: 120px; padding: 7px 0; margin-top: 3px;}
     }
     .navigation{text-align: left; display: inline-block; vertical-align: middle; padding-right: 50px; @extend.animate-2;
-        @include breakpoint(1400) {
+        @include breakpoint(1525) {
                 padding-right: 30px;
             }
         
@@ -197,7 +197,7 @@
                 
             }
             &:last-child{margin-right: 0px;}
-            @include breakpoint(1400) {
+            @include breakpoint(1525) {
                 margin: 0 20px;
             }
             
@@ -220,7 +220,7 @@
     }
     .user-nav{display: inline-block; vertical-align: middle; padding-left: 50px; position: relative;
         
-        @include breakpoint(1400) {
+        @include breakpoint(1525) {
                 padding-left: 30px;
             }
         @include breakpoint(880) {
@@ -246,7 +246,7 @@
             }
             
             &:last-child{margin-right: 0px; position:relative}
-            @include breakpoint(1400) {
+            @include breakpoint(1525) {
                 margin-right:35px;
             }
             @include breakpoint(1050) {
@@ -323,7 +323,7 @@
     }
     
     .cart-panel{text-align: left; padding: 0px 25px; display: block; opacity: 0; @extend.animate-2; z-index:10;
-        width: 100%; max-width: 350px; height: auto; max-height: 0px; overflow-y: hidden; box-sizing: border-box; overflow: auto;
+        width: 100%; max-width: 350px; height: auto; max-height: 0px; overflow-y: hidden; box-sizing: border-box;
         .cart-total-box { display:none;}
         .cart-total{width: 100%; display: inline-block; font-size: 14px;
             > div{width: 50%;
@@ -331,16 +331,15 @@
                 &.price{text-align: right;  }
             }
         }
-        .cart-empty-box {display:block; 
-            p { text-align:center; padding:50px 0; font-size:13px;}
-        }
+        .cart-empty-box {display:block;}
         .cart-empty{width: 100%; display: inline-block; font-size: 14px; border-bottom:solid 1px #cccccc; padding-bottom:20px;
-            
+         
             > div{width: 50%;
                 &.cart-items{text-align: left;}
             }
          
-        } 
+        }
+        p { text-align:center; padding:50px 0; font-size:13px;}
         
         h5{margin-bottom: 10px;}
         b{font-family: $open-sans-600;}
@@ -371,19 +370,49 @@
          
        
     }
-    .login{display:block; width: 220px; right: 0px; padding: 0px 20px; padding-bottom: 0px; text-align: left; overflow: hidden; max-height: 0px; opacity: 0; @extend.animate-2;  z-index:10;
-        h6{font-size: 14px; font-family: $open-sans-600; line-height: 22px; margin-bottom: 10px;
+    .login{ width: 220px; right: 0px; padding: 0px 20px; padding-bottom: 0px; text-align: left; overflow: hidden; max-height: 0px; opacity: 0; @extend.animate-2;  z-index:10;
+         &.open{
+            max-height: 500px; padding: 0px 20px; padding-bottom: 20px; opacity: 1;
+        }
+        
+        .login-box { display:none;
+            h6{font-size: 14px; font-family: $open-sans-600; line-height: 22px; margin-bottom: 10px;
             span{display: block; font-size: 12px;}
         }
         p{font-size: 12px; margin-bottom: 40px; line-height: 18px;}
         .action{position: absolute; bottom: 0px; display: inline-block; width: 100%; left: 0px; background-color: $purple;
-            a{font-size: 12px; padding: 15px; color: #FFF; text-align: center;width: 50%; float: left;}
+            a{font-size: 12px; padding: 15px; color: $white; text-align: center;width: 50%; float: left;
+             
+            
+            }
+        } }
+        
+        .logout-box { display:block;
+            h6{font-size: 14px; font-family: $open-sans-600; line-height: 22px; margin-bottom: 10px; padding-bottom:20px; border-bottom:solid 1px #cccccc;
+            span{display: block; font-size: 12px;}
+        }
+            p{font-size: 12px; margin-bottom: 40px; line-height: 18px;
+                a{color: #444444; }
+            }
+            .action{position: absolute; bottom: 0px; display: inline-block; width: 100%; left: 0px; background-color: $purple;
+            a{font-size: 12px; padding: 15px; color:$white; text-align: center;width: 50%; float: left;
+                span{ position:relative; top:-3px; left:10px;}
+            
+            }
         }
         
-        &.open{
-            max-height: 500px; padding: 0px 20px; padding-bottom: 20px; opacity: 1;
+        
         }
+        
+        
+        
+       
+        
+        
     }
+    
+    
+    
     
     .nav-bg{position: fixed; width: 100%; height: 100%; background-color: rgba(0, 0, 0, 0.8); opacity: 0; top: 0px; left: 0px; z-index: -2; @extend.animate-2; visibility: hidden;
         &.open{opacity: 1; visibility: visible; }
@@ -868,7 +897,7 @@ select::-ms-expand { display: none; } /* for IE */
     .v-header .navigation li .sign::after {content: ""; width: 2px; height: 80%; top: 50%; transform: translate(-50%, -50%); left: 50%; position: absolute; background-color: #7350ac;}
     .v-header .navigation li .sign::before {content: ""; width: 80%; height: 2px; top: 50%; transform: translate(-50%, -50%); left: 50%; position: absolute; background-color: #7350ac;}
     .v-header .navigation{height: calc(100vh - -10px);}
-    .v-header .mega-menu .nav-img{margin-bottom: 10px;}
+    .v-header .mega-menu .nav-img{margin-bottom: 75px;}
     .v-header .navigation li .sign.open::after{display: block;}
     .v-header .navigation li.open .sign::after{display: none;}
     .v-header .navigation{width:400px;}
