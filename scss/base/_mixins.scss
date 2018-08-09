@@ -1,0 +1,38 @@
+//box-shadow
+
+@mixin box-shadow($hoff: false, $voff: false, $blur: false, $spread: false, $color: false){
+  box-shadow: $hoff $voff $blur $spread $color;
+  -webkit-box-shadow: $hoff $voff $blur $spread $color;
+  -moz-box-shadow: $hoff $voff $blur $spread $color;
+}
+
+
+//gradient
+@mixin gradient($color1, $color2) {
+	background-color: $color1;
+	filter: progid:DXImageTransform.Microsoft.gradient(GradientType=0, startColorstr=#{$color1}, endColorstr=#{$color2});
+	background-image: -moz-linear-gradient(center top, $color1, $color2);
+	background-image: -webkit-gradient(linear, 0% 0%, 0% 100%, from($color1), to($color2));
+}
+
+@mixin transform-rotate($rotate) {
+  -webkit-transform: rotate($rotate);
+  -moz-transform: rotate($rotate);
+  -o-transform: rotate($rotate);
+  transform: rotate($rotate);
+}
+
+
+//border-radius
+
+@mixin border-radius($radius) {
+	border-radius: $radius;
+	-webkit-border-radius: $radius;
+	-moz-border-radius: $radius;
+}
+
+// example @include breakpoint(940) { width:80%; }
+
+@mixin breakpoint($size) {
+  @media only screen and (max-width: $size + px) { @content; }
+}

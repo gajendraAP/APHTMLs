@@ -1,0 +1,40 @@
+.c-buy-online-sub { position:relative;
+ &:before { position: absolute; content: "";left: 0;bottom: -40px;height: calc(100% - 15%);background-color: #f6f6f6; width: 95%; z-index:-1;}
+    
+.buy-online-carosel { 
+   .mainSlide { height: auto; outline: none;
+     div { display: table-cell;  vertical-align:bottom;
+                       img { width:100%;}
+                       &:last-child { padding: 20px; width: 295px; }
+                      .section-header{ padding:0;
+         
+                       @include breakpoint(767) { 
+      padding:15px 0;  }
+         
+         } 
+                  }
+                    }
+    
+        .section-header { }
+  
+ }    
+    .link-text { display: block;} 
+    .global-button { display: inline-block;} 
+    .h2 .section-header::before { left:-45px;}
+    
+    
+    .g-arrow-container { right: 30%; bottom: -5px; left:auto; transform:none;
+        
+         @include breakpoint(1440) { 
+        right: calc(100% - 77.5%);
+        }
+      
+        
+     @include breakpoint(767) { 
+       right: 30px;
+       bottom: -20px   }
+    
+    
+    } 
+   
+}

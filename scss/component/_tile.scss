@@ -1,0 +1,44 @@
+//feature products component starts here//
+.c-tile { position:relative; 
+    img { width:100%;  border: 1px solid $white;  border-radius:5px;}
+    h3{ margin-bottom:40px;
+        
+        @include breakpoint(640) { 
+               margin-bottom:20px;
+
+    }
+        
+    }
+    
+    .products-list {
+    ul{ 
+        li { margin-bottom:40px; justify-content:space-between; list-style-type: none; 
+            &:last-child { margin-right:0;}
+            h4 { display:block; margin:15px 0 0 0px; }
+             p { display:block }  
+            
+            
+           @include breakpoint(640) { 
+                width:100%;
+
+    }
+            
+           
+                .product-small-box {
+                    a.link-text { display: block; margin: 15px 0 0 0px;} 
+                }
+              
+            
+        }
+    }
+    
+}
+   
+    
+}
+
+
+
+
+
+

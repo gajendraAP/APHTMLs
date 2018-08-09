@@ -1,0 +1,58 @@
+.c-inspiring-decor { position:relative; padding-bottom: 40px;
+    &:before { position: absolute; content: "";right: 0;bottom: 0px;height: calc(100% - 30%);background-color: #f6f6f6; width: 95%; z-index: -1}
+ .mainSlide { height: auto;
+     h5{margin-bottom: 50px;}
+     div { display: table-cell;  vertical-align:bottom;
+                       img { width:100%;}
+                       &:first-child { width:25%; padding:40px 40px 40px 0;
+         
+             @include breakpoint(1440) {
+                padding:40px 40px 40px 25px;
+            
+    }
+         
+         }
+                  }
+                    }
+    
+    
+    .section-header { position: absolute; top: 50%; transform: translatey(-50%);
+    
+          @include breakpoint(991) {
+                top: 40%;
+            
+    }
+        
+             @include breakpoint(767) {
+                top: 50%;
+            
+    }
+    
+    }
+    
+      
+   .g-arrow-container { left:19%; top:auto; bottom:30px; right:auto; transform:none;
+       
+                   @include breakpoint(1440) {
+                 left: calc(100% - 90%); right:auto;
+            
+    }
+       
+       @include breakpoint(1440) {
+                 left: calc(100% - 91.5%); right:auto;
+            
+    }
+       
+       @include breakpoint(1365) {
+                 left: calc(100% - 95%); right:auto;
+            
+    }
+       
+           
+                @include breakpoint(767) { 
+                left:auto; right:30px; bottom:55%;
+    }
+    }
+    
+  
+ }

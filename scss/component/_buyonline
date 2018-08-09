@@ -1,0 +1,17 @@
+.c-inspiring-decor { position:relative;
+    &:before { position: absolute; content: "";right: 0;bottom: -40px;height: calc(100% - 30%);background-color: #f6f6f6; width: 95%;}
+ .mainSlide { height: auto;
+     h5{margin-bottom: 50px;}
+     div { display: table-cell;  vertical-align:bottom;
+                       img { width:100%;}
+                       &:first-child { width:25%; padding:40px 40px 40px 0; }
+                  }
+                    }
+    
+    .slick-prev, .slick-next { width: 20px; height: 20px; top:auto ; z-index:2; bottom:10px; }
+    .slick-prev::before, .slick-next::before {  opacity: 1; color: $purple;}
+    .slick-prev{ left: 0;}
+    .slick-next { left:45px; right:auto; } 
+    .section-header { position: absolute; top: 50%; transform: translatey(-50%);}
+  
+ }

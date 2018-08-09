@@ -1,0 +1,47 @@
+
+.c-spotlight-carosel{ width: 100%; margin: 0px auto;
+    img { width:100%;}
+    .mainSlide{ position: relative; top: 0; left: 0;  height: auto;
+        img { width:100%;}
+        .overlapContent{ position: absolute; bottom:-30px;  height: auto; background-color: rgba( 246, 246, 246,0.9); border-radius:5px; padding:30px 30px 30px 50px; display:table; align-items: center; justify-content: space-between; z-index:1; margin-left:50px;
+    
+    div{ display:table-cell; vertical-align: middle; padding: 0px 20px 0px 0;}
+            
+            h2{ 
+                @include breakpoint(440) { 
+                 padding-left:0 
+    }
+            }
+    }
+       
+}
+    .section-header{margin-bottom: 0px;}
+    .slick-dots { bottom:-30px;}
+    .slick-dots li button { color: #cdcdcd; background: #cdcdcd; border-radius:100px; width:12px; height:12px;}
+    .slick-dots li button::before { content:none; }
+    .slick-dots li.slick-active button::before { }
+    .slick-dots li.slick-active button { background: $purple; }
+} 
+
+
+
+
+.c-spotlight{ width: 100%; margin: 0px auto;
+    img { width:100%;}
+    .mainSlide{ position: relative; top: 0; left: 0;  height: auto;
+        img { width:100%;}
+        .overlapContent{ position: absolute; bottom:-30px;  height: auto; background-color: rgba( 246, 246, 246,0.9); border-radius:5px; padding:30px 30px 30px 50px; display:table; align-items: center; justify-content: space-between; z-index:1; margin-left:50px;
+    
+    div{ display:table-cell; vertical-align: middle; padding: 0px 20px 0px 0;}
+            
+            h2{ 
+                @include breakpoint(440) { 
+                 padding-left:0 
+    }
+            }
+    }
+       
+}
+    .section-header{margin-bottom: 0px;}
+    
+} 

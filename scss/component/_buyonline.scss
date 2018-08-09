@@ -1,0 +1,70 @@
+
+.c-buy-online { 
+ .grey-box { position:relative;  margin:auto; height:auto; background-color:#f6f6f6; padding:15px; } 
+ 
+.card-box { position:relative; display:flex; align-items:center; justify-content:space-between;
+.left { width:30%;
+> ul { margin:0; padding:0; 
+> li { border: solid 1px #efefef; list-style:none; display:list-item; margin-bottom:30px; position:relative; @include border-radius(5px);
+    a { color:$dark-grey}
+    a > img { width:100%; }
+}
+}
+}
+.middle { width:33.7%;
+> ul { margin:0; padding:0; 
+li {  border: solid 1px #efefef; list-style:none; display:list-item; margin-bottom:30px; position:relative; @include border-radius(5px);
+     a { color:$dark-grey}
+a > img { width:100%; }
+}
+}
+}
+
+.right { width:30%;
+> ul { margin:0; padding:0;
+li { border: solid 1px #efefef; list-style:none; display:list-item; margin-bottom:30px; position:relative; @include border-radius(5px);
+     a { color:$dark-grey}
+a > img { width:100%;}
+}
+}
+}
+
+}
+
+    .buy-online-desk { display:block;
+    @include breakpoint(767) { 
+        display:none;
+    }
+       }    
+    }
+
+
+.c-buy-online-mob-carosel-box {
+.c-buy-online-mob-carosel {  display:none;
+    
+    
+    .slick-slide { height:auto; }
+    
+    
+    
+     @include breakpoint(767) { 
+        display:block;
+         
+    }
+    
+    
+ 
+    
+}
+    .g-arrow-container { visibility:hidden;  
+    
+     @include breakpoint(767)  { 
+         bottom:25px;
+         visibility:visible;
+         
+    }
+    
+     
+    
+}
+}

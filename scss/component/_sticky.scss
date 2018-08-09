@@ -1,0 +1,52 @@
+ .c-sticky-box { @include box-shadow(1px, -1px, 1px, 1px, rgba(0, 0, 0, 0.2)); max-width: 400px; padding-right: 25px;  box-sizing: border-box;
+    position:fixed; bottom:0; left: 0px; width:400px; background-color:$light-grey; 
+        
+    ul{  display:flex; align-items:center; justify-content: center; 
+        li{  color:$white;font-family:$open-sans; font-size:12px;  padding:15px 20px; text-align: center;
+            a{ color:$white; line-height: 20px; position:relative; display: block;
+                &:hover { color:$grey;}
+                 
+               
+                span{ position: relative;  margin-right: 10px; display: inline-block; vertical-align: middle;}
+            }
+            &:first-child { border-right:solid 1px #ffffff; }
+            @include breakpoint(767) { 
+            padding:15px 5px;
+                
+                &:first-child{width: 40%;}
+                &:last-child{width: 60%;}
+    }
+        }
+    }
+    @include breakpoint(991) { 
+        display:block;
+        
+    }
+    
+    @include breakpoint(767) {
+        width: 100%;
+        max-width: 100%;
+        display:block;
+        font-size:11px;  padding:0px; 
+    }
+    
+    > div{width: 50px; height: 50px; @include border-radius(50%); background-color:$light-grey; position: absolute; right: -25px; top: 0px;}
+     
+     .circle {
+    img { position:absolute; right:4px; bottom:4px; cursor:pointer; z-index: 10; transform: rotate(180deg);}
+          
+    @include breakpoint(767) { 
+        display:none;
+    }
+         &.open { 
+             img { transform: rotate(0deg);   }
+            }
+    
+    
+}
+    
+}    
+    
+
+
+

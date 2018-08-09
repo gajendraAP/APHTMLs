@@ -1,0 +1,44 @@
+
+.c-buyonline-product { 
+    .buyonline-product-listing {
+        
+        ul{ display:flex; align-items:top; justify-content: space-between; 
+            li { margin:0 10px 0 10px;             
+                a{width:100%;}
+                @include breakpoint(991) { 
+             width:46%; display:inline-block;  margin:0 10px 40px 10px;
+    }
+                
+                 @include breakpoint(640) { 
+             margin:0 0 40px 0; width:100%;
+    }
+                
+                
+                img { @include box-shadow(0px, 0px, 5px, 0px, rgba(64,64,64,0.15)); width:100% !important;
+      @include border-radius(5px); border:transparent; }
+                p{ padding:15px 0 15px 0; font-size:16px; }
+                
+                div{ display:flex; align-items: center;}
+                .green-text{ font-family:$open-sans-600; font-size:14px; color:#459901;}
+                .amt-line { color:$dark-grey; font-family:$open-sans; font-size:18px; text-decoration: line-through;  }
+                .amt { color:$dark-grey;  font-family:$open-sans; font-size:20px; margin:0 20px 0 20px;}
+            
+            }
+            
+            
+             
+            @include breakpoint(991) { 
+              display:block;
+    }
+            @include breakpoint(640) { 
+             display:block; 
+    }
+            
+        
+        }
+        
+        
+        
+    }
+ 
+}

@@ -1,0 +1,596 @@
+{
+  "responseHeader": {
+    "status": 0,
+    "QTime": 2,
+    "params": {
+      "q": "type:\"Colour\"",
+      "_": "1524485149145"
+    }
+  },
+  "response": {
+    "numFound": 1883,
+    "start": 0,
+    "docs": [
+      {
+        "categoryType": "family",
+        "shadeCode": "9141",
+        "shadeFamilyId": "28",
+        "shadeName": "Platinum Blue",
+        "shadeRGB": [
+          "56",
+          "61",
+          "103"
+        ],
+        "shadeOrder": 7.915238467664761,
+        "shadeFamilyName": "purple",
+        "uniqueUrl": "colourfamily/PURPLE/Rich Berry/9141",
+        "relatedShadesInfo": [
+          "{\"L105\":{\"shadeCode\":\"L105\",\"shadeName\":\"Crystal Peak\",\"shadeRGB\":[\"242\",\"238\",\"229\"],\"uniqueUrl\":\"colourfamily\\/WHITES\\/Cream Pie\\/L105\"}}",
+          "{\"9145\":{\"shadeCode\":\"9145\",\"shadeName\":\"Sky Scapes\",\"shadeRGB\":[\"184\",\"193\",\"221\"],\"uniqueUrl\":\"colourfamily\\/PURPLE\\/Lavender Hush\\/9145\"}}",
+          "{\"7933\":{\"shadeCode\":\"7933\",\"shadeName\":\"Earthen Mix\",\"shadeRGB\":[\"201\",\"146\",\"69\"],\"uniqueUrl\":\"colourfamily\\/YELLOW\\/Cheeky Yellow\\/7933\"}}",
+          "{\"9185\":{\"shadeCode\":\"9185\",\"shadeName\":\"Mild Splash\",\"shadeRGB\":[\"147\",\"169\",\"188\"],\"uniqueUrl\":\"colourfamily\\/BLUE\\/Vitality\\/9185\"}}"
+        ],
+        "id": "205",
+        "type": "Colour",
+        "relatedShades": [
+          "L105",
+          "9145",
+          "7933",
+          "9185"
+        ],
+        "_version_": 1598257985285521400
+      },
+      {
+        "categoryType": "family",
+        "shadeCode": "8253",
+        "shadeFamilyId": "18",
+        "shadeName": "Raven Song",
+        "shadeRGB": [
+          "64",
+          "64",
+          "64"
+        ],
+        "shadeOrder": 8,
+        "shadeFamilyName": "grey",
+        "uniqueUrl": "colourfamily/GREY/Blue Lake/8253",
+        "relatedShadesInfo": [
+          "{\"L151\":{\"shadeCode\":\"L151\",\"shadeName\":\"Raw Jute\",\"shadeRGB\":[\"243\",\"236\",\"224\"],\"uniqueUrl\":\"colourfamily\\/WHITES\\/Cream Pie\\/L151\"}}",
+          "{\"9457\":{\"shadeCode\":\"9457\",\"shadeName\":\"Pastel Grey\",\"shadeRGB\":[\"182\",\"175\",\"172\"],\"uniqueUrl\":\"colourfamily\\/GREY\\/Quicksilver \\/9457\"}}",
+          "{\"7839\":{\"shadeCode\":\"7839\",\"shadeName\":\"Musk Melon\",\"shadeRGB\":[\"207\",\"196\",\"130\"],\"uniqueUrl\":\"colourfamily\\/GREEN\\/River Cruise\\/7839\"}}",
+          "{\"8025\":{\"shadeCode\":\"8025\",\"shadeName\":\"Popsicle\",\"shadeRGB\":[\"254\",\"211\",\"187\"],\"uniqueUrl\":\"colourfamily\\/ORANGE\\/Peach Flutter\\/8025\"}}"
+        ],
+        "id": "1205",
+        "type": "Colour",
+        "relatedShades": [
+          "L151",
+          "9457",
+          "7839",
+          "8025"
+        ],
+        "_version_": 1598257985294958600
+      },
+      {
+        "categoryType": "family",
+        "shadeCode": "9181",
+        "shadeFamilyId": "24",
+        "shadeName": "Stormy Sky",
+        "shadeRGB": [
+          "58",
+          "65",
+          "80"
+        ],
+        "shadeOrder": 8.020785497692854,
+        "shadeFamilyName": "blue",
+        "uniqueUrl": "colourfamily/BLUE/Prussian Blue/9181",
+        "relatedShadesInfo": [
+          "{\"L151\":{\"shadeCode\":\"L151\",\"shadeName\":\"Raw Jute\",\"shadeRGB\":[\"243\",\"236\",\"224\"],\"uniqueUrl\":\"colourfamily\\/WHITES\\/Cream Pie\\/L151\"}}",
+          "{\"7218\":{\"shadeCode\":\"7218\",\"shadeName\":\"Beautiful Berry\",\"shadeRGB\":[\"206\",\"209\",\"229\"],\"uniqueUrl\":\"colourfamily\\/PURPLE\\/Lavender Hush\\/7218\"}}",
+          "{\"9399\":{\"shadeCode\":\"9399\",\"shadeName\":\"Raw Melon\",\"shadeRGB\":[\"250\",\"169\",\"152\"],\"uniqueUrl\":\"colourfamily\\/ORANGE\\/Peach Flutter\\/9399\"}}",
+          "{\"9282\":{\"shadeCode\":\"9282\",\"shadeName\":\"Exotica\",\"shadeRGB\":[\"169\",\"224\",\"216\"],\"uniqueUrl\":\"colourfamily\\/GREEN\\/Marine Green\\/9282\"}}"
+        ],
+        "id": "275",
+        "type": "Colour",
+        "relatedShades": [
+          "L151",
+          "7218",
+          "9399",
+          "9282"
+        ],
+        "_version_": 1598257985296007200
+      },
+      {
+        "categoryType": "family",
+        "shadeCode": "9461",
+        "shadeFamilyId": "18",
+        "shadeName": "Black Currant",
+        "shadeRGB": [
+          "65",
+          "64",
+          "67"
+        ],
+        "shadeOrder": 8.027764321403563,
+        "shadeFamilyName": "grey",
+        "uniqueUrl": "colourfamily/GREY/Blue Lake/9461",
+        "relatedShadesInfo": [
+          "{\"765\":{\"shadeCode\":\"765\",\"shadeName\":\"Morning Glory\",\"shadeRGB\":[\"240\",\"237\",\"228\"],\"uniqueUrl\":\"colourfamily\\/WHITES\\/Cream Pie\\/0765\"}}",
+          "{\"616\":{\"shadeCode\":\"616\",\"shadeName\":\"Smoke - N\",\"shadeRGB\":[\"170\",\"177\",\"182\"],\"uniqueUrl\":\"colourfamily\\/GREY\\/Quicksilver \\/0616\"}}",
+          "{\"7152\":{\"shadeCode\":\"7152\",\"shadeName\":\"Mount Olympus\",\"shadeRGB\":[\"191\",\"173\",\"206\"],\"uniqueUrl\":\"colourfamily\\/PURPLE\\/Mount Olympus\\/7152\"}}",
+          "{\"9202\":{\"shadeCode\":\"9202\",\"shadeName\":\"Pale Blue\",\"shadeRGB\":[\"177\",\"202\",\"219\"],\"uniqueUrl\":\"colourfamily\\/BLUE\\/Sail Away\\/9202\"}}"
+        ],
+        "id": "1191",
+        "type": "Colour",
+        "relatedShades": [
+          "765",
+          "616",
+          "7152",
+          "9202"
+        ],
+        "_version_": 1598257985297055700
+      },
+      {
+        "categoryType": "family",
+        "shadeCode": "9197",
+        "shadeFamilyId": "24",
+        "shadeName": "Navy Blue",
+        "shadeRGB": [
+          "56",
+          "67",
+          "90"
+        ],
+        "shadeOrder": 8.118682159069907,
+        "shadeFamilyName": "blue",
+        "uniqueUrl": "colourfamily/BLUE/Prussian Blue/9197",
+        "relatedShadesInfo": [
+          "{\"L146\":{\"shadeCode\":\"L146\",\"shadeName\":\"Sonnet\",\"shadeRGB\":[\"247\",\"241\",\"233\"],\"uniqueUrl\":\"colourfamily\\/WHITES\\/Cream Pie\\/L146\"}}",
+          "{\"9201\":{\"shadeCode\":\"9201\",\"shadeName\":\"Marine Coast\",\"shadeRGB\":[\"150\",\"179\",\"202\"],\"uniqueUrl\":\"colourfamily\\/BLUE\\/Brazen Breeze\\/9201\"}}",
+          "{\"7957\":{\"shadeCode\":\"7957\",\"shadeName\":\"Orange Peel\",\"shadeRGB\":[\"254\",\"155\",\"41\"],\"uniqueUrl\":\"colourfamily\\/ORANGE\\/Fawn Dream\\/7957\"}}",
+          "{\"9334\":{\"shadeCode\":\"9334\",\"shadeName\":\"Celery\",\"shadeRGB\":[\"96\",\"164\",\"97\"],\"uniqueUrl\":\"colourfamily\\/GREEN\\/Pineview\\/9334\"}}"
+        ],
+        "id": "299",
+        "type": "Colour",
+        "relatedShades": [
+          "L146",
+          "9201",
+          "7957",
+          "9334"
+        ],
+        "_version_": 1598257985298104300
+      },
+      {
+        "categoryType": "family",
+        "shadeCode": "0U29",
+        "shadeFamilyId": "24",
+        "shadeName": "Armada",
+        "shadeRGB": [
+          "55",
+          "70",
+          "91"
+        ],
+        "shadeOrder": 8.234864904781377,
+        "shadeFamilyName": "blue",
+        "uniqueUrl": "colourfamily/BLUE/Prussian Blue/0U29",
+        "relatedShadesInfo": [
+          "{\"L105\":{\"shadeCode\":\"L105\",\"shadeName\":\"Crystal Peak\",\"shadeRGB\":[\"242\",\"238\",\"229\"],\"uniqueUrl\":\"colourfamily\\/WHITES\\/Cream Pie\\/L105\"}}",
+          "{\"7369\":{\"shadeCode\":\"7369\",\"shadeName\":\"Harbor Fog\",\"shadeRGB\":[\"151\",\"187\",\"206\"],\"uniqueUrl\":\"colourfamily\\/BLUE\\/Brazen Breeze\\/7369\"}}",
+          "{\"8027\":{\"shadeCode\":\"8027\",\"shadeName\":\"Touch Of Paprika\",\"shadeRGB\":[\"251\",\"232\",\"217\"],\"uniqueUrl\":\"colourfamily\\/ORANGE\\/Mellow Orange\\/8027\"}}",
+          "{\"8436\":{\"shadeCode\":\"8436\",\"shadeName\":\"White Delight\",\"shadeRGB\":[\"232\",\"228\",\"219\"],\"uniqueUrl\":\"colourfamily\\/GREY\\/Ice Crystal\\/8436\"}}"
+        ],
+        "id": "330",
+        "type": "Colour",
+        "relatedShades": [
+          "L105",
+          "7369",
+          "8027",
+          "8436"
+        ],
+        "_version_": 1598257985298104300
+      },
+      {
+        "categoryType": "family",
+        "shadeCode": "9221",
+        "shadeFamilyId": "24",
+        "shadeName": "Blue Mountain",
+        "shadeRGB": [
+          "51",
+          "73",
+          "95"
+        ],
+        "shadeOrder": 8.318293094138964,
+        "shadeFamilyName": "blue",
+        "uniqueUrl": "colourfamily/BLUE/Prussian Blue/9221",
+        "relatedShadesInfo": [
+          "{\"765\":{\"shadeCode\":\"765\",\"shadeName\":\"Morning Glory\",\"shadeRGB\":[\"240\",\"237\",\"228\"],\"uniqueUrl\":\"colourfamily\\/WHITES\\/Cream Pie\\/0765\"}}",
+          "{\"7418\":{\"shadeCode\":\"7418\",\"shadeName\":\"City Sky\",\"shadeRGB\":[\"184\",\"209\",\"216\"],\"uniqueUrl\":\"colourfamily\\/BLUE\\/Winter Sky Light\\/7418\"}}",
+          "{\"7958\":{\"shadeCode\":\"7958\",\"shadeName\":\"Pumpkin Harvest\",\"shadeRGB\":[\"254\",\"176\",\"67\"],\"uniqueUrl\":\"colourfamily\\/ORANGE\\/Peach Flutter\\/7958\"}}",
+          "{\"7160\":{\"shadeCode\":\"7160\",\"shadeName\":\"Dash Of Purple\",\"shadeRGB\":[\"185\",\"168\",\"213\"],\"uniqueUrl\":\"colourfamily\\/PURPLE\\/Mount Olympus\\/7160\"}}"
+        ],
+        "id": "354",
+        "type": "Colour",
+        "relatedShades": [
+          "765",
+          "7418",
+          "7958",
+          "7160"
+        ],
+        "_version_": 1598257985299153000
+      },
+      {
+        "categoryType": "family",
+        "shadeCode": "8213",
+        "shadeFamilyId": "28",
+        "shadeName": "Rich Berry",
+        "shadeRGB": [
+          "77",
+          "67",
+          "72"
+        ],
+        "shadeOrder": 8.351646544245034,
+        "shadeFamilyName": "purple",
+        "uniqueUrl": "colourfamily/PURPLE/Rich Berry/8213",
+        "relatedShadesInfo": [
+          "{\"L105\":{\"shadeCode\":\"L105\",\"shadeName\":\"Crystal Peak\",\"shadeRGB\":[\"242\",\"238\",\"229\"],\"uniqueUrl\":\"colourfamily\\/WHITES\\/Cream Pie\\/L105\"}}",
+          "{\"8217\":{\"shadeCode\":\"8217\",\"shadeName\":\"Sensuous Lilac\",\"shadeRGB\":[\"188\",\"179\",\"184\"],\"uniqueUrl\":\"colourfamily\\/PURPLE\\/Mount Olympus\\/8217\"}}",
+          "{\"7893\":{\"shadeCode\":\"7893\",\"shadeName\":\"Radiance\",\"shadeRGB\":[\"240\",\"183\",\"53\"],\"uniqueUrl\":\"colourfamily\\/YELLOW\\/Cheeky Yellow\\/7893\"}}",
+          "{\"8135\":{\"shadeCode\":\"8135\",\"shadeName\":\"Valentine\",\"shadeRGB\":[\"214\",\"147\",\"175\"],\"uniqueUrl\":\"colourfamily\\/PINK\\/Rich Desire\\/8135\"}}"
+        ],
+        "id": "1169",
+        "type": "Colour",
+        "relatedShades": [
+          "L105",
+          "8217",
+          "7893",
+          "8135"
+        ],
+        "_version_": 1598257985299153000
+      },
+      {
+        "categoryType": "family",
+        "shadeCode": "7381",
+        "shadeFamilyId": "24",
+        "shadeName": "Autumn Shower",
+        "shadeRGB": [
+          "63",
+          "72",
+          "78"
+        ],
+        "shadeOrder": 8.380871076445455,
+        "shadeFamilyName": "blue",
+        "uniqueUrl": "colourfamily/BLUE/Prussian Blue/7381",
+        "relatedShadesInfo": [
+          "{\"L156\":{\"shadeCode\":\"L156\",\"shadeName\":\"Almost Ivory\",\"shadeRGB\":[\"242\",\"238\",\"226\"],\"uniqueUrl\":\"colourfamily\\/WHITES\\/Cream Pie\\/L156\"}}",
+          "{\"9218\":{\"shadeCode\":\"9218\",\"shadeName\":\"Aqua Fresh\",\"shadeRGB\":[\"179\",\"219\",\"233\"],\"uniqueUrl\":\"colourfamily\\/BLUE\\/Winter Sky Light\\/9218\"}}",
+          "{\"7993\":{\"shadeCode\":\"7993\",\"shadeName\":\"Melon Sorbet\",\"shadeRGB\":[\"254\",\"217\",\"181\"],\"uniqueUrl\":\"colourfamily\\/ORANGE\\/Mellow Orange\\/7993\"}}",
+          "{\"7793\":{\"shadeCode\":\"7793\",\"shadeName\":\"Jungle Cane\",\"shadeRGB\":[\"187\",\"186\",\"148\"],\"uniqueUrl\":\"colourfamily\\/GREEN\\/Dry Leaf\\/7793\"}}"
+        ],
+        "id": "346",
+        "type": "Colour",
+        "relatedShades": [
+          "L156",
+          "9218",
+          "7993",
+          "7793"
+        ],
+        "_version_": 1598257985300201500
+      },
+      {
+        "categoryType": "family",
+        "shadeCode": "9205",
+        "shadeFamilyId": "24",
+        "shadeName": "Bing Blue",
+        "shadeRGB": [
+          "40",
+          "75",
+          "134"
+        ],
+        "shadeOrder": 8.401011843819767,
+        "shadeFamilyName": "blue",
+        "uniqueUrl": "colourfamily/BLUE/Prussian Blue/9205",
+        "relatedShadesInfo": [
+          "{\"765\":{\"shadeCode\":\"765\",\"shadeName\":\"Morning Glory\",\"shadeRGB\":[\"240\",\"237\",\"228\"],\"uniqueUrl\":\"colourfamily\\/WHITES\\/Cream Pie\\/0765\"}}",
+          "{\"9209\":{\"shadeCode\":\"9209\",\"shadeName\":\"Water Jet\",\"shadeRGB\":[\"124\",\"192\",\"233\"],\"uniqueUrl\":\"colourfamily\\/BLUE\\/Brazen Breeze\\/9209\"}}",
+          "{\"9407\":{\"shadeCode\":\"9407\",\"shadeName\":\"Fruit Pink\",\"shadeRGB\":[\"224\",\"134\",\"141\"],\"uniqueUrl\":\"colourfamily\\/PINK\\/Rich Desire\\/9407\"}}",
+          "{\"9163\":{\"shadeCode\":\"9163\",\"shadeName\":\"Plain Bliss\",\"shadeRGB\":[\"200\",\"207\",\"222\"],\"uniqueUrl\":\"colourfamily\\/BLUE\\/Winter Sky Light\\/9163\"}}"
+        ],
+        "id": "315",
+        "type": "Colour",
+        "relatedShades": [
+          "765",
+          "9209",
+          "9407",
+          "9163"
+        ],
+        "_version_": 1598257985300201500
+      },
+      {
+        "categoryType": "family",
+        "shadeCode": "8034",
+        "shadeFamilyId": "28",
+        "shadeName": "Platinum Blue",
+        "shadeRGB": [
+          "56",
+          "61",
+          "103"
+        ],
+        "shadeOrder": 7.915238467664761,
+        "shadeFamilyName": "purple",
+        "uniqueUrl": "colourfamily/PURPLE/Rich Berry/9141",
+        "relatedShadesInfo": [
+          "{\"L105\":{\"shadeCode\":\"L105\",\"shadeName\":\"Crystal Peak\",\"shadeRGB\":[\"242\",\"238\",\"229\"],\"uniqueUrl\":\"colourfamily\\/WHITES\\/Cream Pie\\/L105\"}}",
+          "{\"9145\":{\"shadeCode\":\"9145\",\"shadeName\":\"Sky Scapes\",\"shadeRGB\":[\"184\",\"193\",\"221\"],\"uniqueUrl\":\"colourfamily\\/PURPLE\\/Lavender Hush\\/9145\"}}",
+          "{\"7933\":{\"shadeCode\":\"7933\",\"shadeName\":\"Earthen Mix\",\"shadeRGB\":[\"201\",\"146\",\"69\"],\"uniqueUrl\":\"colourfamily\\/YELLOW\\/Cheeky Yellow\\/7933\"}}",
+          "{\"9185\":{\"shadeCode\":\"9185\",\"shadeName\":\"Mild Splash\",\"shadeRGB\":[\"147\",\"169\",\"188\"],\"uniqueUrl\":\"colourfamily\\/BLUE\\/Vitality\\/9185\"}}"
+        ],
+        "id": "205",
+        "type": "Colour",
+        "relatedShades": [
+          "L105",
+          "9145",
+          "7933",
+          "9185"
+        ],
+        "_version_": 1598257985285521400
+      },
+      {
+        "categoryType": "family",
+        "shadeCode": "8035",
+        "shadeFamilyId": "18",
+        "shadeName": "Raven Song",
+        "shadeRGB": [
+          "64",
+          "64",
+          "64"
+        ],
+        "shadeOrder": 8,
+        "shadeFamilyName": "grey",
+        "uniqueUrl": "colourfamily/GREY/Blue Lake/8253",
+        "relatedShadesInfo": [
+          "{\"L151\":{\"shadeCode\":\"L151\",\"shadeName\":\"Raw Jute\",\"shadeRGB\":[\"243\",\"236\",\"224\"],\"uniqueUrl\":\"colourfamily\\/WHITES\\/Cream Pie\\/L151\"}}",
+          "{\"9457\":{\"shadeCode\":\"9457\",\"shadeName\":\"Pastel Grey\",\"shadeRGB\":[\"182\",\"175\",\"172\"],\"uniqueUrl\":\"colourfamily\\/GREY\\/Quicksilver \\/9457\"}}",
+          "{\"7839\":{\"shadeCode\":\"7839\",\"shadeName\":\"Musk Melon\",\"shadeRGB\":[\"207\",\"196\",\"130\"],\"uniqueUrl\":\"colourfamily\\/GREEN\\/River Cruise\\/7839\"}}",
+          "{\"8025\":{\"shadeCode\":\"8025\",\"shadeName\":\"Popsicle\",\"shadeRGB\":[\"254\",\"211\",\"187\"],\"uniqueUrl\":\"colourfamily\\/ORANGE\\/Peach Flutter\\/8025\"}}"
+        ],
+        "id": "1205",
+        "type": "Colour",
+        "relatedShades": [
+          "L151",
+          "9457",
+          "7839",
+          "8025"
+        ],
+        "_version_": 1598257985294958600
+      },
+      {
+        "categoryType": "family",
+        "shadeCode": "9181",
+        "shadeFamilyId": "24",
+        "shadeName": "Stormy Sky",
+        "shadeRGB": [
+          "58",
+          "65",
+          "80"
+        ],
+        "shadeOrder": 8.020785497692854,
+        "shadeFamilyName": "blue",
+        "uniqueUrl": "colourfamily/BLUE/Prussian Blue/9181",
+        "relatedShadesInfo": [
+          "{\"L151\":{\"shadeCode\":\"L151\",\"shadeName\":\"Raw Jute\",\"shadeRGB\":[\"243\",\"236\",\"224\"],\"uniqueUrl\":\"colourfamily\\/WHITES\\/Cream Pie\\/L151\"}}",
+          "{\"7218\":{\"shadeCode\":\"7218\",\"shadeName\":\"Beautiful Berry\",\"shadeRGB\":[\"206\",\"209\",\"229\"],\"uniqueUrl\":\"colourfamily\\/PURPLE\\/Lavender Hush\\/7218\"}}",
+          "{\"9399\":{\"shadeCode\":\"9399\",\"shadeName\":\"Raw Melon\",\"shadeRGB\":[\"250\",\"169\",\"152\"],\"uniqueUrl\":\"colourfamily\\/ORANGE\\/Peach Flutter\\/9399\"}}",
+          "{\"9282\":{\"shadeCode\":\"9282\",\"shadeName\":\"Exotica\",\"shadeRGB\":[\"169\",\"224\",\"216\"],\"uniqueUrl\":\"colourfamily\\/GREEN\\/Marine Green\\/9282\"}}"
+        ],
+        "id": "275",
+        "type": "Colour",
+        "relatedShades": [
+          "L151",
+          "7218",
+          "9399",
+          "9282"
+        ],
+        "_version_": 1598257985296007200
+      },
+      {
+        "categoryType": "family",
+        "shadeCode": "8036",
+        "shadeFamilyId": "18",
+        "shadeName": "Black Currant",
+        "shadeRGB": [
+          "65",
+          "64",
+          "67"
+        ],
+        "shadeOrder": 8.027764321403563,
+        "shadeFamilyName": "grey",
+        "uniqueUrl": "colourfamily/GREY/Blue Lake/9461",
+        "relatedShadesInfo": [
+          "{\"765\":{\"shadeCode\":\"765\",\"shadeName\":\"Morning Glory\",\"shadeRGB\":[\"240\",\"237\",\"228\"],\"uniqueUrl\":\"colourfamily\\/WHITES\\/Cream Pie\\/0765\"}}",
+          "{\"616\":{\"shadeCode\":\"616\",\"shadeName\":\"Smoke - N\",\"shadeRGB\":[\"170\",\"177\",\"182\"],\"uniqueUrl\":\"colourfamily\\/GREY\\/Quicksilver \\/0616\"}}",
+          "{\"7152\":{\"shadeCode\":\"7152\",\"shadeName\":\"Mount Olympus\",\"shadeRGB\":[\"191\",\"173\",\"206\"],\"uniqueUrl\":\"colourfamily\\/PURPLE\\/Mount Olympus\\/7152\"}}",
+          "{\"9202\":{\"shadeCode\":\"9202\",\"shadeName\":\"Pale Blue\",\"shadeRGB\":[\"177\",\"202\",\"219\"],\"uniqueUrl\":\"colourfamily\\/BLUE\\/Sail Away\\/9202\"}}"
+        ],
+        "id": "1191",
+        "type": "Colour",
+        "relatedShades": [
+          "765",
+          "616",
+          "7152",
+          "9202"
+        ],
+        "_version_": 1598257985297055700
+      },
+      {
+        "categoryType": "family",
+        "shadeCode": "8037",
+        "shadeFamilyId": "24",
+        "shadeName": "Navy Blue",
+        "shadeRGB": [
+          "56",
+          "67",
+          "90"
+        ],
+        "shadeOrder": 8.118682159069907,
+        "shadeFamilyName": "blue",
+        "uniqueUrl": "colourfamily/BLUE/Prussian Blue/9197",
+        "relatedShadesInfo": [
+          "{\"L146\":{\"shadeCode\":\"L146\",\"shadeName\":\"Sonnet\",\"shadeRGB\":[\"247\",\"241\",\"233\"],\"uniqueUrl\":\"colourfamily\\/WHITES\\/Cream Pie\\/L146\"}}",
+          "{\"9201\":{\"shadeCode\":\"9201\",\"shadeName\":\"Marine Coast\",\"shadeRGB\":[\"150\",\"179\",\"202\"],\"uniqueUrl\":\"colourfamily\\/BLUE\\/Brazen Breeze\\/9201\"}}",
+          "{\"7957\":{\"shadeCode\":\"7957\",\"shadeName\":\"Orange Peel\",\"shadeRGB\":[\"254\",\"155\",\"41\"],\"uniqueUrl\":\"colourfamily\\/ORANGE\\/Fawn Dream\\/7957\"}}",
+          "{\"9334\":{\"shadeCode\":\"9334\",\"shadeName\":\"Celery\",\"shadeRGB\":[\"96\",\"164\",\"97\"],\"uniqueUrl\":\"colourfamily\\/GREEN\\/Pineview\\/9334\"}}"
+        ],
+        "id": "299",
+        "type": "Colour",
+        "relatedShades": [
+          "L146",
+          "9201",
+          "7957",
+          "9334"
+        ],
+        "_version_": 1598257985298104300
+      },
+      {
+        "categoryType": "family",
+        "shadeCode": "8038",
+        "shadeFamilyId": "24",
+        "shadeName": "Armada",
+        "shadeRGB": [
+          "55",
+          "70",
+          "91"
+        ],
+        "shadeOrder": 8.234864904781377,
+        "shadeFamilyName": "blue",
+        "uniqueUrl": "colourfamily/BLUE/Prussian Blue/0U29",
+        "relatedShadesInfo": [
+          "{\"L105\":{\"shadeCode\":\"L105\",\"shadeName\":\"Crystal Peak\",\"shadeRGB\":[\"242\",\"238\",\"229\"],\"uniqueUrl\":\"colourfamily\\/WHITES\\/Cream Pie\\/L105\"}}",
+          "{\"7369\":{\"shadeCode\":\"7369\",\"shadeName\":\"Harbor Fog\",\"shadeRGB\":[\"151\",\"187\",\"206\"],\"uniqueUrl\":\"colourfamily\\/BLUE\\/Brazen Breeze\\/7369\"}}",
+          "{\"8027\":{\"shadeCode\":\"8027\",\"shadeName\":\"Touch Of Paprika\",\"shadeRGB\":[\"251\",\"232\",\"217\"],\"uniqueUrl\":\"colourfamily\\/ORANGE\\/Mellow Orange\\/8027\"}}",
+          "{\"8436\":{\"shadeCode\":\"8436\",\"shadeName\":\"White Delight\",\"shadeRGB\":[\"232\",\"228\",\"219\"],\"uniqueUrl\":\"colourfamily\\/GREY\\/Ice Crystal\\/8436\"}}"
+        ],
+        "id": "330",
+        "type": "Colour",
+        "relatedShades": [
+          "L105",
+          "7369",
+          "8027",
+          "8436"
+        ],
+        "_version_": 1598257985298104300
+      },
+      {
+        "categoryType": "family",
+        "shadeCode": "8039",
+        "shadeFamilyId": "24",
+        "shadeName": "Blue Mountain",
+        "shadeRGB": [
+          "51",
+          "73",
+          "95"
+        ],
+        "shadeOrder": 8.318293094138964,
+        "shadeFamilyName": "blue",
+        "uniqueUrl": "colourfamily/BLUE/Prussian Blue/9221",
+        "relatedShadesInfo": [
+          "{\"765\":{\"shadeCode\":\"765\",\"shadeName\":\"Morning Glory\",\"shadeRGB\":[\"240\",\"237\",\"228\"],\"uniqueUrl\":\"colourfamily\\/WHITES\\/Cream Pie\\/0765\"}}",
+          "{\"7418\":{\"shadeCode\":\"7418\",\"shadeName\":\"City Sky\",\"shadeRGB\":[\"184\",\"209\",\"216\"],\"uniqueUrl\":\"colourfamily\\/BLUE\\/Winter Sky Light\\/7418\"}}",
+          "{\"7958\":{\"shadeCode\":\"7958\",\"shadeName\":\"Pumpkin Harvest\",\"shadeRGB\":[\"254\",\"176\",\"67\"],\"uniqueUrl\":\"colourfamily\\/ORANGE\\/Peach Flutter\\/7958\"}}",
+          "{\"7160\":{\"shadeCode\":\"7160\",\"shadeName\":\"Dash Of Purple\",\"shadeRGB\":[\"185\",\"168\",\"213\"],\"uniqueUrl\":\"colourfamily\\/PURPLE\\/Mount Olympus\\/7160\"}}"
+        ],
+        "id": "354",
+        "type": "Colour",
+        "relatedShades": [
+          "765",
+          "7418",
+          "7958",
+          "7160"
+        ],
+        "_version_": 1598257985299153000
+      },
+      {
+        "categoryType": "family",
+        "shadeCode": "8030",
+        "shadeFamilyId": "28",
+        "shadeName": "Rich Berry",
+        "shadeRGB": [
+          "77",
+          "67",
+          "72"
+        ],
+        "shadeOrder": 8.351646544245034,
+        "shadeFamilyName": "purple",
+        "uniqueUrl": "colourfamily/PURPLE/Rich Berry/8213",
+        "relatedShadesInfo": [
+          "{\"L105\":{\"shadeCode\":\"L105\",\"shadeName\":\"Crystal Peak\",\"shadeRGB\":[\"242\",\"238\",\"229\"],\"uniqueUrl\":\"colourfamily\\/WHITES\\/Cream Pie\\/L105\"}}",
+          "{\"8217\":{\"shadeCode\":\"8217\",\"shadeName\":\"Sensuous Lilac\",\"shadeRGB\":[\"188\",\"179\",\"184\"],\"uniqueUrl\":\"colourfamily\\/PURPLE\\/Mount Olympus\\/8217\"}}",
+          "{\"7893\":{\"shadeCode\":\"7893\",\"shadeName\":\"Radiance\",\"shadeRGB\":[\"240\",\"183\",\"53\"],\"uniqueUrl\":\"colourfamily\\/YELLOW\\/Cheeky Yellow\\/7893\"}}",
+          "{\"8135\":{\"shadeCode\":\"8135\",\"shadeName\":\"Valentine\",\"shadeRGB\":[\"214\",\"147\",\"175\"],\"uniqueUrl\":\"colourfamily\\/PINK\\/Rich Desire\\/8135\"}}"
+        ],
+        "id": "1169",
+        "type": "Colour",
+        "relatedShades": [
+          "L105",
+          "8217",
+          "7893",
+          "8135"
+        ],
+        "_version_": 1598257985299153000
+      },
+      {
+        "categoryType": "family",
+        "shadeCode": "8031",
+        "shadeFamilyId": "24",
+        "shadeName": "Autumn Shower",
+        "shadeRGB": [
+          "63",
+          "72",
+          "78"
+        ],
+        "shadeOrder": 8.380871076445455,
+        "shadeFamilyName": "blue",
+        "uniqueUrl": "colourfamily/BLUE/Prussian Blue/7381",
+        "relatedShadesInfo": [
+          "{\"L156\":{\"shadeCode\":\"L156\",\"shadeName\":\"Almost Ivory\",\"shadeRGB\":[\"242\",\"238\",\"226\"],\"uniqueUrl\":\"colourfamily\\/WHITES\\/Cream Pie\\/L156\"}}",
+          "{\"9218\":{\"shadeCode\":\"9218\",\"shadeName\":\"Aqua Fresh\",\"shadeRGB\":[\"179\",\"219\",\"233\"],\"uniqueUrl\":\"colourfamily\\/BLUE\\/Winter Sky Light\\/9218\"}}",
+          "{\"7993\":{\"shadeCode\":\"7993\",\"shadeName\":\"Melon Sorbet\",\"shadeRGB\":[\"254\",\"217\",\"181\"],\"uniqueUrl\":\"colourfamily\\/ORANGE\\/Mellow Orange\\/7993\"}}",
+          "{\"7793\":{\"shadeCode\":\"7793\",\"shadeName\":\"Jungle Cane\",\"shadeRGB\":[\"187\",\"186\",\"148\"],\"uniqueUrl\":\"colourfamily\\/GREEN\\/Dry Leaf\\/7793\"}}"
+        ],
+        "id": "346",
+        "type": "Colour",
+        "relatedShades": [
+          "L156",
+          "9218",
+          "7993",
+          "7793"
+        ],
+        "_version_": 1598257985300201500
+      },
+      {
+        "categoryType": "family",
+        "shadeCode": "8032",
+        "shadeFamilyId": "24",
+        "shadeName": "Bing Blue",
+        "shadeRGB": [
+          "40",
+          "75",
+          "134"
+        ],
+        "shadeOrder": 8.401011843819767,
+        "shadeFamilyName": "blue",
+        "uniqueUrl": "colourfamily/BLUE/Prussian Blue/9205",
+        "relatedShadesInfo": [
+          "{\"765\":{\"shadeCode\":\"765\",\"shadeName\":\"Morning Glory\",\"shadeRGB\":[\"240\",\"237\",\"228\"],\"uniqueUrl\":\"colourfamily\\/WHITES\\/Cream Pie\\/0765\"}}",
+          "{\"9209\":{\"shadeCode\":\"9209\",\"shadeName\":\"Water Jet\",\"shadeRGB\":[\"124\",\"192\",\"233\"],\"uniqueUrl\":\"colourfamily\\/BLUE\\/Brazen Breeze\\/9209\"}}",
+          "{\"9407\":{\"shadeCode\":\"9407\",\"shadeName\":\"Fruit Pink\",\"shadeRGB\":[\"224\",\"134\",\"141\"],\"uniqueUrl\":\"colourfamily\\/PINK\\/Rich Desire\\/9407\"}}",
+          "{\"9163\":{\"shadeCode\":\"9163\",\"shadeName\":\"Plain Bliss\",\"shadeRGB\":[\"200\",\"207\",\"222\"],\"uniqueUrl\":\"colourfamily\\/BLUE\\/Winter Sky Light\\/9163\"}}"
+        ],
+        "id": "315",
+        "type": "Colour",
+        "relatedShades": [
+          "765",
+          "9209",
+          "9407",
+          "9163"
+        ],
+        "_version_": 1598257985300201500
+      }
+    ]
+  }
+}

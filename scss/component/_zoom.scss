@@ -1,0 +1,36 @@
+.c-product-zoom-box { 
+    .zoom-box { position:relative; 
+        img { width:100%;} 
+        .left-top-box { position:absolute; left:0; top:10px;  padding:5px; 
+            font-size: 0px; line-height: 0%; width: 115px;
+border-top: 28px solid #fbc531;
+border-right: 28px solid transparent;
+            .left-top-box-text { font-family:$open-sans-600; font-size:14px; color:$dark-grey; position:absolute;  top: calc(100% - 25px);}
+                 
+        }
+            .right-bottom-box { position:absolute; right:10px; bottom:10px; cursor:pointer;}
+    }
+ 
+    .zoom-list {
+        ul{ margin:0; padding:0;
+            li{ float:left; display:inline-block; float:left; width:100%;
+                img{ width:100%; padding:10px 5px;}
+            
+            }
+        
+        }
+        
+    }
+    .slick-slide { height:auto;}
+    
+    
+    @include breakpoint(767) { 
+        overflow:hidden;
+    }
+    
+}
+
+
+
+
+

@@ -1,0 +1,68 @@
+//feature products component starts here//
+.c-feature-products { position:relative; 
+    img { width:100%;  border: 1px solid $white;  border-radius:5px;}
+    &:after { content:""; background-color: #f6f6f6; position: absolute; height: 300px; top: 50px; width: 100%; z-index: -1;}
+    .feature-product-carosel { padding:0px 0;
+        @include breakpoint(440) {
+        margin: 15px 0;
+    }
+        .mainSlide { position: relative; top: 0; left: 0; display:block; height: auto; outline: 0px;
+            div{ display:table-cell; vertical-align: middle;
+                span{ display:block;}
+                
+            }
+            .box { padding:20px; border:solid 1px $grey; display: block; margin-left: 40px; @include border-radius(5px); position:relative;}
+            .featuremore { position:absolute; margin-top:40px;
+            
+            @include breakpoint(767) { 
+                margin-top:20px;
+    }
+            }
+           
+        }
+       
+    
+    }
+    .products-list {
+    ul{ margin:0; padding:0; display:flex; align-items:center; 
+        li { margin-right:40px; justify-content:space-between; list-style-type: none;
+            &:last-child { margin-right:0;}
+            h4 { display:block; margin:15px 0 0 0px; padding:0; }
+             p { display:block }
+        }
+    }
+        
+      
+    
+}
+     .g-arrow-container { right:34%; top:45%; bottom:auto; left:auto; transform:none;
+         
+           @include breakpoint(1440) {
+               right: calc( 100% - 72.5% );
+            
+    }
+               @include breakpoint(1439) {
+               right: calc( 100% - 75% );
+            
+    }
+         
+        @include breakpoint(1365) {
+               right: calc( 100% - 80% ); top:50%;
+            
+    } 
+    
+        @include breakpoint(767) { 
+                 right:30px;
+                 top:25%;
+                 transform: none;
+    }
+    
+    }
+    
+}
+
+
+
+
+
+

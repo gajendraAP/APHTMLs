@@ -1,0 +1,371 @@
+
+//fonts ends here
+
+//Default Class
+.wrapper{width: 100%; float: left; position:relative;}
+
+.g-left{float: left;}
+.g-right{float: right;}
+.g-row-m{margin-top:40px; margin-bottom: 40px;}
+.g-con-row{margin: 40px 0;
+    @include breakpoint(767) {
+        margin: 30px 0;
+    }
+    @include breakpoint(440) {
+        margin: 15px 0;
+    }
+}
+.g-margin-bottom{margin-bottom: 40px;}
+.g-close-icon{position: absolute; top: 5px; right: 5px; cursor: pointer; }
+body{font-family: $open-sans; padding-top: 120px;
+   
+      @include breakpoint(440) {
+       padding-top: 65px;
+    }
+
+}
+
+
+//hamburger menu
+
+#nav-icon4 {
+  width: 25px;
+  height: 25px;
+    margin-right: 30px;
+  position: relative; float: left;
+  @include transform-rotate(0deg);
+  cursor: pointer;
+    margin-top: 26px;
+    display: none;
+    @include breakpoint(880) {display: block;}
+    @include breakpoint(440) {margin-right: 10px; margin-top: 12px;}
+    span {
+  display: block;
+  position: absolute;
+  height: 3px;
+  width: 100%;
+  background: $purple;
+  opacity: 1;
+  left: 0;
+  
+  -webkit-transition: .25s ease-in-out;
+  -moz-transition: .25s ease-in-out;
+  -o-transition: .25s ease-in-out;
+  transition: .25s ease-in-out;
+        &:nth-child(1) {
+  top: 0px;
+  -webkit-transform-origin: left center;
+  -moz-transform-origin: left center;
+  -o-transform-origin: left center;
+  transform-origin: left center;
+}
+        &:nth-child(2) {
+  top: 7px;
+  -webkit-transform-origin: left center;
+  -moz-transform-origin: left center;
+  -o-transform-origin: left center;
+  transform-origin: left center;
+}
+        &:nth-child(3) {
+  top: 14px;
+  -webkit-transform-origin: left center;
+  -moz-transform-origin: left center;
+  -o-transform-origin: left center;
+  transform-origin: left center;
+}               
+}
+    &.open{
+        span{
+            &:nth-child(1){
+                @include transform-rotate(45deg); top:-3px;
+            }
+            &:nth-child(2){
+                width: 0%;
+                opacity: 0;
+            }
+            
+            &:nth-child(3){
+                @include transform-rotate(-45deg); top:15px;
+            }
+        }
+    }
+}
+
+
+
+//fonts classes ends here//
+
+.h1{ font-family:$abhaya-libre-600; font-size:40px; color:$dark-grey;  margin: 0px;
+       @include breakpoint(1600) { 
+        font-size:32px;
+        padding-left:25px;
+    }
+    
+    @include breakpoint(1366) { 
+        font-size:28px;
+         padding-left:25px;
+    }
+    
+    
+    @include breakpoint(767) { 
+        font-size:28px;
+        padding-left:25px;
+    }
+    @include breakpoint(440) { 
+        font-size:22px;
+         padding-left:25px; 
+    }  
+    
+    
+    
+    
+    
+   
+}
+.h2{ font-family:$abhaya-libre-600; font-size:36px; color:$dark-grey;  margin: 0px; padding: 0px;
+    .rose { color:$rose;}
+     @include breakpoint(1600) { 
+        font-size:32px;
+          padding-left:25px;
+        
+    }
+    
+    @include breakpoint(1366) { 
+        font-size:28px;
+          padding-left:25px;
+        
+    }
+    
+    
+    @include breakpoint(767) { 
+        font-size:28px;
+        padding-left:25px;
+    }
+    @include breakpoint(440) { 
+        font-size:22px;
+        padding-left:25px; 
+    }
+}
+
+.section-header { position:relative; margin-bottom: 40px;
+    @include breakpoint(440) { 
+         margin-bottom: 20px;
+    }
+          &:before { position:absolute; content:""; width:50px; height:2px; background-color:$rose; left:-65px; top:50%; translate:transformY(-50%);
+    
+         @include breakpoint(991) { 
+         left:-25px;
+            }
+              
+               @include breakpoint(767) { 
+         left:-15px;
+            }
+              
+            @include breakpoint(568) { 
+         width:30px;
+            }   
+    }
+}
+
+.h3{ font-family:$abhaya-libre-600; font-size:30px; color:$dark-grey;margin: 0px;
+    @include breakpoint(1600) {
+        font-size: 22px;
+    }
+    
+    @include breakpoint(440) {
+        margin-bottom:20px;
+    }
+    
+    
+}
+.h4{ font-family:$abhaya-libre-600;font-size:24px; color:$dark-grey;  margin: 0px;
+    @include breakpoint(1600) {
+        font-size: 22px;
+    }
+    
+      @include breakpoint(767) { 
+        font-size:18px;
+      
+        
+    }
+    
+}
+
+.h5{ font-family:$open-sans-600; font-size:22px; color:$dark-grey; margin: 0px;
+    @include breakpoint(1600) { 
+        font-size:18px;
+    }
+     @include breakpoint(440) { 
+        font-size:16px;
+    }
+}
+.h6{ font-family:$open-sans; font-size:18px; color:$dark-grey; font-weight:400; margin: 0px;}
+
+.p { font-family:$open-sans; font-size:$copy-size; color:$dark-grey; font-weight:400; line-height:24px;
+     @include breakpoint(1600) { 
+        font-size:14px;
+    }
+    @include breakpoint(440) { 
+        font-size:14px;
+        line-height: 16px;
+    }
+}
+
+.link-text { font-family:$open-sans-600; font-size:16px; color:$purple; 
+  @include breakpoint(767) { 
+        font-size:14px;
+    }
+}
+.copy-text { font-family:$open-sans-600; font-size:16px; color:$dark-grey;
+@include breakpoint(767) { 
+        font-size:14px;
+    }
+
+}
+
+.animate-1 { transition: all .1s ease-in-out; -webkit-transition: all .1s ease-in-out; -moz-transition: all .1s ease-in-out; -ms-transition: all .1s ease-in-out; -o-transition: all .1s ease-in-out;}
+
+.animate-2 { transition: all .3s ease-in-out; -webkit-transition: all .3s ease-in-out; -moz-transition: all .3s ease-in-out; -ms-transition: all .3s ease-in-out; -o-transition: all .3s ease-in-out;}
+.animate-3 { transition: all .5s ease-in-out; -webkit-transition: all .5s ease-in-out; -moz-transition: all .5s ease-in-out; -ms-transition: all .5s ease-in-out; -o-transition: all .5s ease-in-out;}
+.rupee-symbol { font-family: 'rupee_foradian1-webfont'; }
+
+.g-left-dropdown { display:none;}
+
+.typography {
+h3{ @extend.h3; margin: 0px;}
+h4{ @extend.h4; margin: 0px;}
+h5{ @extend.h5; margin: 0px;}
+h6{ @extend.h6; margin: 0px;}
+p { @extend.p  }   
+ul{ margin:0; padding:0;
+    li{  list-style:none; font-size:$copy-size; font-family:$open-sans; color:copy-text; position:relative; display:list-item; margin:10px 0 10px 25px; line-height:24px;
+        &:before { position:absolute; content:""; width:6px; height:6px; background-color:$purple; left:-19px; top:10px; @include border-radius(50px); } 
+      }
+  }
+    &.no-bullets {
+        ul{
+    li{ margin:20px 0 20px 0;
+        &:before { content:none;} 
+      }
+  }
+       
+    
+      }
+}
+    
+ 
+.global-button { background-color:$purple; min-width:140px; @include border-radius(5px); border:solid 1px #7350ac; font-family:$open-sans; font-size:16px; padding:10px 20px; display:inline-block; @extend.animate-1; text-align: center; color:$white; outline: 0px; margin:10px 0;
+          &:hover{ background-color:$white; color:$purple;}
+          &:focus{ background-color:$white; color:$purple;}
+   
+}
+
+
+.global-button-white { background-color:$white; min-width:140px; @include border-radius(5px); border:solid 1px #7350ac; font-family:$open-sans; font-size:16px; padding:10px 20px; display:inline-block; @extend.animate-1; text-align: center; color:$purple; outline: 0px; margin:10px 0;
+          &:hover{ background-color:$purple; color:$white;}
+          &:focus{ background-color:$purple; color:$white;}
+  
+}
+
+
+.form-box {
+     .error { color:$red; font-size:11px; position: absolute; bottom: -12px; left: 0px;}
+     input[type="text"]{  padding: 10px 0; border: none; outline: 0px; width: 100%; border-bottom:1px solid $light-grey; background: transparent; position: relative;
+         &:focus{
+           + .focusLine{width: 100%; z-index: 555;}
+         }
+    }
+    
+    select { background: transparent; -webkit-appearance: none; -moz-appearance: none;  /* for Firefox */
+appearance: none; 	-ms-appearance:none; background:$white url("../images/dropdownarrow.png") no-repeat scroll 100% center;
+border:none; font-family:$open-sans; font-size:$copy-size; color:$dark-grey;
+ :option { padding:5px;}
+}
+    
+.focusLine { width:0%; height:2px; position:absolute; bottom: 0; left:0px; background-color:$purple; z-index: 5; @extend.animate-1;}   
+.radiobtn { display:inline-block;
+        label {  position:relative;
+          p { position: relative; left: -30%; bottom: -30px; margin: 0px auto;   }
+        &:before { content:""; background-color:$white; width:15px; height:15px; position:absolute; top:-3px; left:0; z-index:-1; border-radius: 10px; border: solid 1px $purple;}
+        input{ visibility: hidden; position: absolute;} 
+       
+        input:checked + label:before { background-color:$purple; border-radius: 10px; border: solid 1px $white;}
+          }
+    }
+  
+ 
+.checkbox {  position:relative; margin-left:30px;
+      input {  position: absolute;  z-index: -1;  opacity: 0;  }
+      
+ 
+     .form-indicator {  position: absolute;  top: 50%; transform:translateY(-50%);left: -30px;  height: 18px;  width: 18px;  background-color:$white; border:solid 1px $dark-grey; 
+         &:after{ content: '';  position: absolute;  display: none; }
+          }
+     input:checked ~ .form-indicator{  background-color:$white; border:solid 1px $red;  }
+     input:checked ~ .form-indicator:after {  display: block;  left: 7px;  top: 2px;  width: 4px;  height: 10px;  border:solid 1px $dark-grey;  border-width: 0 1px 1px 0;  transform: rotate(45deg);}
+     
+    } 
+ label { font-family:$open-sans; font-size:14px;  }
+    
+}
+
+select option { background-color:$white; border:solid 1px $light-grey; padding:5px;}
+
+.sprite-box {
+    
+a { background:url(../images/global-sprite.png); width:30px; height:27px; background-repeat:no-repeat; font-size:0; display: inline-block;
+&.login { background-position: 2px 27px; }
+&.cart { background-position: 49px 27px; }
+&.search { background-position: 103px 27px; }
+    
+&.left-arrow { background-position: 155px 27px; }
+&.right-arrow { background-position: 197px 27px; }
+&.play { background-position: 242px 27px; }
+&.close { background-position: 292px 27px; }
+    
+&.cross { background-position: 350px 27px; }
+&.download{ background-position: 403px 27px; }
+&.edit { background-position: 460px 27px; }
+    
+&.delete { background-position: 515px 27px; }
+&.print { background-position: 566px 27px; }
+&.map { background-position: 615px 27px; }
+&.like { background-position: 661px 27px; }
+&.share { background-position: 719px 27px; }
+
+}    
+ 
+}
+
+
+
+.g-arrow-container {  display: flex; align-items: center;  justify-content: space-evenly;  width: 100px; cursor:pointer; left:50%; transform:translateX(-50%); position:absolute; bottom:5px;
+    
+    
+     @include breakpoint(1440) { 
+                 left:auto;
+                 right:20%;
+            
+    }
+    
+    
+
+   @include breakpoint(767) { 
+                 left:auto;
+                 right:30px;
+             transform: none;
+    }
+    
+    
+    
+    .slick-arrow img { border:none;}
+
+}
+
+
+/* Fixes Firefox anomaly during image load */
+		@-moz-document url-prefix() {
+			img:-moz-loading {
+				visibility: hidden;
+			}
+		}

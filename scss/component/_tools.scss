@@ -1,0 +1,28 @@
+
+.c-tools { position:relative;
+    &:before { position:absolute; content:""; left:20px; bottom:0; height:calc(100% - 40px); background-color:#f6f6f6;}
+    .tools-list {
+        ul { margin:0; padding:0; display:flex; align-items:center; justify-content:space-between; text-align:center;
+            li{ width:25%; display:inline-block; padding: 0 10px;
+                h5 { padding-top:15px; font-family:$open-sans; 
+                    @include breakpoint(440) { 
+                        padding-top:0px;
+                    }
+                }
+            }
+        }
+    }
+    
+ .mainSlide {position: relative;  top: 0;  left: 0; display: table;
+                   div { display: table-cell;  vertical-align: middle;
+                       img { width:100%;}
+                       &:first-child { width:25%; }
+                  }
+            }
+    h5{ display:block; margin: 15px 0px; margin-top: 30px; 
+        @include breakpoint(440) { 
+        margin-top: 15px;
+    }
+    }
+ }
+

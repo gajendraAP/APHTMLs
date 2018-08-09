@@ -1,0 +1,17 @@
+.c-breadcrumbs { margin-top:10px;
+    
+    ul { margin:0; padding:0;
+    
+        li { font-size:13px; color:$light-grey; display:inline-block; float:left; padding:5px 15px 5px 0; position:relative;
+            a{ color:$light-grey;
+                
+                &:hover { color:$dark-grey; }
+            }
+            &:after { content:"/"; position:absolute; text-align: center; top:50%; right:4px; font-size:14px;  transform:translateY(-50%);}
+            
+            &:last-child:after { content:none;}
+            &.active { color:$dark-grey; }
+        }
+    }
+    
+}

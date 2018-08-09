@@ -1,0 +1,69 @@
+.c-tabbing {
+    
+    .nav {
+        li {
+            a:hover{  background-color:transparent;}
+            a:focus{  background-color:transparent;}
+        
+        }
+        
+    }
+    
+    
+    .nav-tabs { border-bottom:none;
+        ul{ display: flex; margin-top:25px;
+align-items: center;
+justify-content: space-between;
+        
+        li{  display: inline-block;  position:relative; text-align: center;
+            
+            a {  border-radius:0; border:none; padding:0; font-family:$open-sans; font-size:18px; color:$dark-grey; border:none; 
+                    &:hover{ background-color:none; border:none; }
+                    &:focus{ } 
+           
+               
+            }
+            
+            
+            
+            &.active{ 
+                a { border:none; color:$purple; 
+                &:hover{ border:none; }
+                &:focus{ border:none; }
+                 
+               
+                }
+                 &:before { position:absolute; content:""; width:100%; bottom:-20px; background-color:#bb9fea; left:0; height:5px;}
+                 &:after { 	left: 50%;	border: solid transparent;	content: " ";	height: 0;	width: 0;	position: absolute;	pointer-events: none; border-color: rgba(189, 160, 236, 0);
+	                      border-top-color: #bb9fea;border-width: 10px;	margin-left: -10px; bottom:-37px;} 
+                
+             }
+            
+            
+        }
+            }
+    } 
+               
+}
+  
+  
+.c-shop-border { position:relative;
+    &:after { position:absolute; content:""; left:0; width:100%; background-color:#cdcdcd; height:1px; bottom:-15px; z-index:-1;}
+}   
+  
+.c-sort-list { position:relative;
+    span{ float:left; padding-right:15px; font-size:18px;}
+    ul{ margin:0; padding:0;
+        li{ display:inline-block; float:left; padding:0 15px; font-size:16px; color:$black; position:relative;
+            a{ color:$black;}
+          &.active { 
+                  &:before { position:absolute; content:""; width:100%; bottom:-25px; background-color:#bb9fea; left:0; height:5px;}
+                }  
+        }
+    
+    }
+    &:after { position:absolute; content:""; left:0; width:100%; background-color:#cdcdcd; height:1px; bottom:-37px; z-index:-1; }
+    
+}
+    
+
