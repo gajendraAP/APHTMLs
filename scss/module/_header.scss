@@ -104,7 +104,7 @@
         @include breakpoint(440) {width: 120px; padding: 7px 0; margin-top: 3px;}
     }
     .navigation{text-align: left; display: inline-block; vertical-align: middle; padding-right: 50px; @extend.animate-2;
-        @include breakpoint(1525) {
+        @include breakpoint(1919) {
                 padding-right: 30px;
             }
         
@@ -197,7 +197,7 @@
                 
             }
             &:last-child{margin-right: 0px;}
-            @include breakpoint(1525) {
+            @include breakpoint(1919) {
                 margin: 0 20px;
             }
             
@@ -220,7 +220,7 @@
     }
     .user-nav{display: inline-block; vertical-align: middle; padding-left: 50px; position: relative;
         
-        @include breakpoint(1525) {
+        @include breakpoint(1919) {
                 padding-left: 30px;
             }
         @include breakpoint(880) {
@@ -246,7 +246,7 @@
             }
             
             &:last-child{margin-right: 0px; position:relative}
-            @include breakpoint(1525) {
+            @include breakpoint(1919) {
                 margin-right:35px;
             }
             @include breakpoint(1050) {
